@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text was hidden, but now it's visible!
+  </div>
+  <button onclick="showDiv()">Show Div</button>
+  <script>
+    function showDiv() {
+      document.getElementById("myDiv").style.display = "block";
+    }
+    //Initially hidden, but can be shown using the button
+  </script>
+</body>
+</html>
