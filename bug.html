@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will disappear!
+  </div>
+  <script>
+    document.getElementById("myDiv").style.display = "none";
+    //The bug is that the div is hidden using javascript, but there is no way of showing it unless the javascript is changed
+  </script>
+</body>
+</html>
